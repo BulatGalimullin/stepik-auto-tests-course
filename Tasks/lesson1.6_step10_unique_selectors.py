@@ -8,9 +8,9 @@ try:
 
     # Ваш код, который заполняет обязательные поля
     input1 = browser.find_element_by_css_selector("input[class = 'form-control first'][required]")
-    input1.send_keys('hi')
+    input1.send_keys('hello')
     input2 = browser.find_element_by_css_selector("input[class = 'form-control second'][required]")
-    input2.send_keys('hi')
+    input2.send_keys('h3i')
     input3 = browser.find_element_by_css_selector("input[class = 'form-control third'][required]")
     input3.send_keys('hi')
 
